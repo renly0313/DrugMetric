@@ -49,8 +49,3 @@ ChemAIrank 是一种基于化学空间距离的定量类药性评估模型，用
 配置服务器设置。
 部署并启动 Web 服务器。
 
-## 数据与模型
-
-由于数据和模型体积较大，我们将它们存储在网盘上。请点击以下链接进行下载：
-
-链接：https://pan.baidu.com/s/1W-vpNIwBvlOWNXJ2A6bXaA?pwd=iuhv 提取码：iuhv
