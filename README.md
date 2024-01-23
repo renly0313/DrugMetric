@@ -1,5 +1,5 @@
 ## ChemAIrank: A Quantitative Drug-likeness Scoring Model Based on Chemical Space Distances for Accelerating Drug Discovery
-![Model](model.png)
+![Model](DrugMetric Overall Architecture.pdf)
 ## 简介
 
 ChemAIrank 是一种基于化学空间距离的定量类药性评估模型，用于评估和筛选具有潜在药用价值的化合物。通过综合运用化学空间距离、自动机器学习和集成学习的方法，ChemAIrank 在评估类药性方面具有显著优势，且在实际应用中显示出较强的鲁棒性和稳定性。
