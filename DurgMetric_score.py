@@ -94,12 +94,12 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', type=str,
-                        default="/home/dell/wangzhen/RealQED(2.17)/test/data/admet-score/bbb.csv",
+                        default="molecule_smiles_files.csv",
                         help='Input file path')
-    parser.add_argument('--vocab', type=str, default="/home/dell/wangzhen/RealQED(2.17)/data/vocab/all_data_vocab.txt",
+    parser.add_argument('--vocab', type=str, default="/data/vocab/all_data_vocab.txt",
                         help='Vocab file path')
     parser.add_argument('--model_path', type=str,
-                        default="/home/dell/wangzhen/RealQED(2.17)/data/save_model/pre_zinc250_mix_rand1_processed_model1206/pre_zinc250_mix_rand1_processed_model1206best_model.pkl",
+                        default="fast_molvae/vae_model/model.epoch-19",
                         help='Model file path')
     parser.add_argument('--latent_size', type=int, default=64, help='Latent size for VAE')
 
