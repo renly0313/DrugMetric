@@ -34,7 +34,7 @@ python vae_train.py  --train data/train_data_processed \
 ```
 python DrugMetric_score.py --input molecules_files \
                            --vocab data/vocab/all_data_vocab.txt \
-                           --model_path save/vae_model.pkl \
+                           --model_path fast_molvae/vae_model/model.epoch-19 \
                
 ```
 ## webserver
